@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-maven-app-231058002
+  name: my-maven-app-deployment-231058002
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: my-maven-app-231058002
+      app: my-maven-app
   template:
     metadata:
       labels:
